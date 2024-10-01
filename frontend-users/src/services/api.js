@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:8000"
+    baseURL: "https://api-usuarios-jq2i.onrender.com"
 })
 
 export default api
