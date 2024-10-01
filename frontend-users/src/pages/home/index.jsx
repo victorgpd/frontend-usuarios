@@ -29,6 +29,9 @@ function Home() {
     })
 
     getUsers()
+    inputAge.current.value =""
+    inputName.current.value =""
+    inputEmail.current.value =""
   }
 
   {/* Função para deletar Usuário */}
